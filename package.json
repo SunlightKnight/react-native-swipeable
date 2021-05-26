@@ -1,14 +1,40 @@
 {
-  "name": "react-native-swipeable",
-  "version": "0.6.0",
-  "description": "A powerful React Native swipe component",
-  "main": "lib/index.js",
-  "scripts": {
-    "build": "make build",
-    "lint": "make lint"
+  "_args": [
+    [
+      "github:SunlightKnight/react-native-swipeable",
+      "/Users/northernfides/Dev/ReactNative/app_pay/app"
+    ]
+  ],
+  "_from": "github:SunlightKnight/react-native-swipeable",
+  "_id": "react-native-swipeable@github:SunlightKnight/react-native-swipeable#003e8a7e7b193109dd443f678df815d06cb3b1c5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-swipeable",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:SunlightKnight/react-native-swipeable",
+    "rawSpec": "github:SunlightKnight/react-native-swipeable",
+    "saveSpec": "github:SunlightKnight/react-native-swipeable",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
-  "author": "Jeff Hanson",
-  "license": "MIT",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:SunlightKnight/react-native-swipeable#003e8a7e7b193109dd443f678df815d06cb3b1c5",
+  "_spec": "github:SunlightKnight/react-native-swipeable",
+  "_where": "/Users/northernfides/Dev/ReactNative/app_pay/app",
+  "author": {
+    "name": "Jeff Hanson"
+  },
+  "bugs": {
+    "url": "https://github.com/jshanson7/react-native-swipeable/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "description": "A powerful React Native swipe component",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.1",
@@ -22,6 +48,17 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0"
   },
+  "homepage": "https://github.com/jshanson7/react-native-swipeable#readme",
+  "keywords": [
+    "react",
+    "native",
+    "swipe",
+    "ListView",
+    "TableView"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-swipeable",
   "peerDependencies": {
     "react": ">=15.2.0",
     "react-native": ">=0.44.0"
@@ -30,14 +67,9 @@
     "type": "git",
     "url": "git+https://github.com/jshanson7/react-native-swipeable.git"
   },
-  "keywords": [
-    "react",
-    "native",
-    "swipe",
-    "ListView",
-    "TableView"
-  ],
-  "dependencies": {
-    "prop-types": "^15.5.10"
-  }
+  "scripts": {
+    "build": "make build",
+    "lint": "make lint"
+  },
+  "version": "0.6.0"
 }
